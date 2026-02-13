@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Sayarin",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(0, 0, 0)",
+      "toolbar_text": "rgb(252, 191, 4)",
+      "frame": "rgb(20, 20, 21)",
+      "tab_background_text": "rgb(255, 210, 0)",
+      "toolbar_field": "rgb(0, 0, 0)",
+      "toolbar_field_text": "rgb(255, 191, 4)",
+      "tab_line": "rgba(255, 191, 4, 0.48)",
+      "popup": "rgb(0, 0, 0)",
+      "popup_text": "rgb(255, 191, 4)",
+      "tab_loading": "rgba(255, 191, 4, 0.48)"
+    }
+  }
+}
