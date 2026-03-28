@@ -1,0 +1,34 @@
+{
+  "name": "sayarin-theme",
+  "displayName": "Sayarin",
+  "description": "Sayarin Dark & Light — ported from the Zed Sayarin theme",
+  "version": "0.1.0",
+  "publisher": "local-sayarin",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sayarin Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sayarin-dark.json"
+      },
+      {
+        "label": "Sayarin Light",
+        "uiTheme": "vs",
+        "path": "./themes/sayarin-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build:themes": "node scripts/build-themes.mjs",
+    "migrate:zed-oklch": "node scripts/migrate-zed-oklch.mjs"
+  },
+  "devDependencies": {
+    "culori": "^4.0.2"
+  }
+}
